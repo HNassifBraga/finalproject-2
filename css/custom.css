@@ -1,29 +1,71 @@
-
+/*group selector*/
+h1, h2, h3
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*child selector*/
+.header1 h1 > input
+{
+  border: green;
+}
+/*control the width of accordeon*/
 .accordion-item
 {
   width: 80vw !important;
 }
+/*combinator selector*/
+.buttonnn a
+{
+  text-decoration: none;
+  color: white;
+  font-size: large;
 
+}
+/*position fixed*/
+.buttonnn
+{
+  position: fixed;
+  background-color: #000;
+  max-width: 5rem;
+  max-height: 5rem;
+  left: 45rem;
+  bottom: 5rem;
+  z-index: 1000000000000000000000;
+}
+.carro
+{
+  width: 100vw;
+}
+/*atribute selector*/
+a [href="httttt"]:hover
+{
+  color: green;
+} 
+/*control size of images carousel smartphone e tablet galerie large screen*/
 .item9
 {
   width: 20rem !important;
   height: auto;
 }
+/*control size of hamburguer menu */
 .hoverer, .hamburguer {
   width: 100vw;
   min-height: 100%;
   background-color: white;
 
 }
+/*combinator selector*/
 .hamburguer a
 {
   max-height: .2rem !;
 }
+/*combinator selector*/
 .hoverer a, .hamburguer a
 {
   color: black;
   text-decoration-color: black;
 }
+/*customizing button*/
 .btn-zabatu
 {
   display: block !important;
@@ -32,6 +74,7 @@
   color: white !important;
   border: 0 !important;
 }
+/*customizing button*/
 .btn-tum
 {
   display: block !important;
@@ -41,6 +84,7 @@
   border: 0 !important;
   min-height: 3rem;
 }
+/*control carrousel itens*/
 .item-list
 {
   display: flex;
@@ -49,25 +93,29 @@
   gap: 1rem;
   scroll-snap-type: x mandatory;
 }
-
+/*make the letter small*/
 .lower-character
 {
   font-size: .8rem;
 }
+/*make the letter small*/
 .lower-character1
 {
   font-size: .8rem;
   margin-top: 2rem !important;
 }
+/*combinator selector*/
 .carousel a
 {
   text-decoration-color: black;
   color: black;
 }
+/*combinator selector*/
 .carousel p
 {
   width: 18rem;
 }
+
 .item
 {
   scroll-snap-align: center;
@@ -85,6 +133,7 @@
   width: 20rem !important;
  }
 }
+/*position relative*/
 .header2-1
 {
   position: relative;
@@ -100,16 +149,19 @@
   right: 3rem;
   position: relative;
 }
+/*position relative*/
 .image-container1, .image-container2, .image-container3, .image-container4, .image-container5, .image-container6
 {
   position: relative;
 }
+/*position absolute*/
 .icon-heart
 {
   position: absolute;
   bottom: 8.8rem;
   left: 8.8rem;
 }
+/*combinator selector*/
 .realclosefooter a
 {
   text-decoration: none;
@@ -120,6 +172,7 @@
 {
   width: 100vw !important ;
 }
+/*combinator selector*/
 .touchingfooter p
 {
   font-size: 0.7rem;
@@ -128,11 +181,13 @@
 {
   width: 100vw !important ;
 }
+/*combinator selector*/
 .popular h1
 {
   font-size: 2rem;
 
 }
+/*combinator selector*/
 .closefooter a, .closefooter1 a
 {
   text-decoration: underline;
@@ -152,10 +207,12 @@
   min-width:345px;
   margin: 0 auto;
 }
+/*combinator selector*/
 .text-container p
 {
   text-align: justify;
 }
+/*combinator selector*/
 .theaccordion a
 {
   text-decoration: none;
@@ -170,13 +227,13 @@
 }
 .darkness
 {
-  width: 102.3%; /* Define a largura do botão */
+  width: 100vw; 
   display: flex;
   align-content: center;
   background-color: black;
   color: white;
   text-align: center;
-  justify-content: space-between; /* Espaça o conteúdo ao máximo */
+ 
   align-content: center; 
 }
 .arrow-darkness
@@ -184,6 +241,7 @@
   color: white;
   background-color: black;
 }
+/*position absolute*/
 .price-tag1, .price-tag2, .price-tag3, .price-tag4, .price-tag5, .price-tag6
 {
   position: absolute;
@@ -191,35 +249,49 @@
   height: 1.3rem;
   width: 4rem;
 }
+/*transition*/
 .image-container1:hover .price-tag1
 {
   bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+/*transition*/
 .image-container2:hover .price-tag2
 {
   bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+/*transition*/
 .image-container3:hover .price-tag3
 {
   bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+/*transition*/
 .image-container4:hover .price-tag4
 {
   bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+/*transition*/
 .image-container5:hover .price-tag5
 {
   bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+/*transition*/
 .image-container6:hover .price-tag6
 {
   bottom: 2rem;
+  transition: transform 0.3s ease;
 }
+/*transition*/
 .img-conteiner1-1
 {
   width: 20rem !important;
   height: auto !important;
 }
+/*position relative*/
 .icon-heart1
 {
   position: relative;
@@ -238,11 +310,13 @@
 {
   max-height: 3.5rem;
 }
+/*position relative*/
 .header3-100, .header3-200, .header3-300
 {
   position: relative;
  bottom: 2rem   ;
 }
+/*position absolute*/
 .header31
 {
   position: absolute;
@@ -253,11 +327,13 @@
   height: auto;
 
 }
+/*position relative*/
 .header3-1, .header3-2, .header3-3
 {
   position: relative;
   top: 19rem;
 }
+/*position relative*/
 .header3-11, .header3-22, .header3-33
 {
   position: relative;
@@ -343,6 +419,7 @@
  * Copyright 2011-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /*variables*/
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #23a6f0;

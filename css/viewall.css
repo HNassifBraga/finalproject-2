@@ -1,8 +1,19 @@
+/*responsive typography*/
+body
+{
+  line-height: 1.4rem;
+}
 .img-grande
 {
     width: 100vw !important;
     height: auto;
    
+}
+/*pseudo-element*/
+p::first-line {
+  font-weight: bold;
+  font-size: larger;
+
 }
 
 .icon-heart1
@@ -27,4 +38,30 @@
 .image-container5-view
 {
     position: relative;
+}
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: moveAndChangeColor;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/*keyframe animation*/
+@keyframes moveAndChangeColor {
+  0% {
+    left: 0;
+    background-color: red;
+  }
+  50% {
+    left: 100%;
+    background-color: blue;
+  }
+  100% {
+    left: 0;
+    background-color: red;
+  }
 }
