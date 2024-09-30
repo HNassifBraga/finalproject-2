@@ -21,6 +21,10 @@ h1, h2, h3
   font-size: large;
 
 }
+.collapse
+{
+  z-index: 99999999999999999999999999999999 !important;
+}
 /*position fixed*/
 .buttonnn
 {
