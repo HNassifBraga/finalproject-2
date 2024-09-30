@@ -1,0 +1,30 @@
+.img-grande
+{
+    width: 100vw !important;
+    height: auto;
+   
+}
+
+.icon-heart1
+{
+  position: absolute;
+  bottom: 28rem;
+  left: 21rem;
+}
+ .price-tag10
+{
+  position: absolute;
+  top: 26rem;
+  height: 1.3rem;
+  right: 18rem  ;
+
+}
+.img-grande:hover  .price-tag10
+{
+  bottom: 13rem !important;
+
+}
+.image-container5-view
+{
+    position: relative;
+}
