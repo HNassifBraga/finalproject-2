@@ -22,6 +22,7 @@ p::first-line {
   bottom: 28rem;
   left: 21rem;
 }
+/*position absolute*/
  .price-tag10
 {
   position: absolute;
@@ -35,10 +36,12 @@ p::first-line {
   bottom: 13rem !important;
 
 }
+/*poaition relative*/
 .image-container5-view
 {
     position: relative;
 }
+/*animation*/
 .animated-box {
   width: 100px;
   height: 100px;

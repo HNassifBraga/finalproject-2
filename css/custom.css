@@ -25,6 +25,10 @@ h1, h2, h3
 {
   z-index: 99999999999999999999999999999999 !important;
 }
+.border-gold
+{
+  border: 8x solid gold;
+}
 /*position fixed*/
 .buttonnn
 {
